@@ -199,7 +199,7 @@ spyder
 # Contacts
 
 **Alexis FORESTIER**
-- mail or not email ... ???
+- alexis.forestier@cea.fr
 
 **Antoine HILBERER**
 - antoine.hilberer@cea.fr
