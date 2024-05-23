@@ -1,6 +1,6 @@
 # Atelier "Python pour l’analyse des données haute pression"
 
-__[14e Forum de technologie des hautes pressions]((https://forumhp2024.sciencesconf.org/)__
+__[14e Forum de technologie des hautes pressions](https://forumhp2024.sciencesconf.org/)__
 
 __Nouvelles frontières en haute pression : de l'instrumentation à l'analyse de données__
 
