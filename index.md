@@ -1,3 +1,3 @@
 # Atelier Python
 
-test
+[test](index.md)
