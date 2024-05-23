@@ -1,3 +1,6 @@
+![cnrs](logos/cnrs.png)
+![cea](logos/cea.png)
+
 # Atelier "Python pour l’analyse des données haute pression"
 
 __14e Forum de technologie des hautes pressions__
