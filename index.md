@@ -1,3 +1,3 @@
 # Atelier Python
 
-[test](index.md)
+[test](Rubis_demo_fit/Rubis_demo.ipynb)
