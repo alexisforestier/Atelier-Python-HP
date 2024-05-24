@@ -62,6 +62,19 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
 
+4) From anaconda prompt (windows) or a terminal (Ubuntu & MAC) add conda-forge repository (__required only 1 time__). This will allow to install the packages you need. 
+
+```bash
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+
+### Install new packages
+
+2) 
+
+
+
 ### A "cleaner" way
 
 Miniconda **OR** Anaconda (NOT both)
@@ -73,12 +86,7 @@ Miniconda **OR** Anaconda (NOT both)
    https://docs.anaconda.com/anaconda/install/
   
 
-2) From anaconda prompt (windows) or terminal (Ubuntu & MAC) add conda-forge repository (required only 1 time)
 
-```bash
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-```
 
 3) Create a new virtual environment with name "my_env":
 
