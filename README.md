@@ -55,8 +55,8 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 2) Run the installer and follow the steps without changing any options, unless:
 > [!CAUTION]
-> Do not install in the default directory (C:\Users\username\anaconda3) if **username** contains spaces  
-> if **username** contains spaces change the installation directory to "C:\Anaconda".
+> If your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3)   
+> If your **username** contains spaces, change the installation directory to "C:\Anaconda".
 
 3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
 
