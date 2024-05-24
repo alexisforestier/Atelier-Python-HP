@@ -62,7 +62,7 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
 
-4) From anaconda prompt (windows) or a terminal (Ubuntu & MAC) add conda-forge repository (__required only 1 time__). This will allow to install the packages you need. 
+4) From anaconda prompt (Windows) or a terminal (GNU/Linux, Mac) add conda-forge repository (__required only 1 time__). This will allow to install the packages you need from this repository. 
 
 ```bash
 conda config --add channels conda-forge
