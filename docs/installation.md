@@ -50,7 +50,7 @@ When asked to proceed, type `y` and `enter`.
 The new package is installing.
 
 
-> [!IMPORTANT]
+> **Important**
 > To install all required packages that are not included in __anaconda__ for our workshop, run in a single command line :
 > ```
 > conda install lmfit h5py hdf5plugin fabio pyFAI
