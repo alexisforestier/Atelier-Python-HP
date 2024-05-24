@@ -6,8 +6,7 @@
 ![](tuto_screenshots/download_installer.PNG)
 
 
-2) Run the installer and follow the steps without changing any options, unless:
-If your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3). If your **username** contains spaces, change the installation directory to "C:\Anaconda".
+2) Run the installer and follow the steps without changing any options, unless: if your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3). If your **username** contains spaces, change the installation directory to "C:\Anaconda".
 
 
 3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
@@ -18,11 +17,12 @@ If your **username** on Windows contains spaces, do not install in the default d
 We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
 
 
-4) From __anaconda prompt__, that you can run from __Anaconda Navigator__ (Windows) or any terminal (GNU/Linux, Mac), add conda-forge repository (__required only 1 time__). This will allow to install all the packages you may need from the *conda-forge* repository. 
+4) Run __anaconda prompt__ from __Anaconda Navigator__ (Windows) or run any terminal (GNU/Linux, Mac).  
 
 ![](tuto_screenshots/navigator_prompt.PNG)
 
-To do that run the following two commands:
+We will add conda-forge repository (__this is required only 1 time at installation__). This will allow you to install all the packages you may need from the *conda-forge* repository later. 
+Run the following two commands one after the other:
 
 ```bash
 conda config --add channels conda-forge
@@ -32,7 +32,8 @@ conda config --set channel_priority strict
 ![](tuto_screenshots/condachannels1.PNG)
 ![](tuto_screenshots/condachannels2.PNG)
 
-You have python installed and setted up. 
+__You have python installed and setted up.__ 
+
 
 ## Install new packages
 
@@ -49,8 +50,7 @@ When asked to proceed, type `y` and `enter`.
 The new package is installing.
 
 
-
-__To install all required packages that are not included in Anaconda for our workshop, run in a single command line :__
+__To install all required packages that are not included in Anaconda for our workshop examples, run in a single command line :__
 ```
 conda install lmfit h5py hdf5plugin fabio pyFAI
 ```
