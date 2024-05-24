@@ -49,10 +49,20 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 
 ## 1. Install Conda
-> [!NOTE]
-> Yiuri WIP
+### The easiest way
 
-1) Download and install Miniconda **OR** Anaconda (NOT both)
+1) Download __Anaconda__ installer from [here](https://www.anaconda.com/download/success).
+
+2) Run the installer and follow the steps without changing any options, unless:
+> [!CAUTION]
+> Do not install in the default directory (C:\Users\username\anaconda3) if **username** contains spaces  
+> if **username** contains spaces change the installation directory to "C:\Anaconda"
+
+
+
+### A "cleaner" way
+
+Miniconda **OR** Anaconda (NOT both)
 
    - Miniconda  
    https://docs.anaconda.com/free/miniconda/miniconda-install/
@@ -60,9 +70,6 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
    - Anaconda  
    https://docs.anaconda.com/anaconda/install/
   
-> [!CAUTION]
-> Do not install Miniconda/Anaconda in the default directory (C:\Users\username\anaconda3) if **username** contains spaces  
-> if **username** contains spaces change the installation directory to "C:\Anaconda"
 
 2) From anaconda prompt (windows) or terminal (Ubuntu & MAC) add conda-forge repository (required only 1 time)
 
