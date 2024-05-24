@@ -60,11 +60,7 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
 
-
-
-We are mainly interested in __Spyder__ and __Jupyter Notebook__ in our workshop.
-
-
+We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
 
 ### A "cleaner" way
 
