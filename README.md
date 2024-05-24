@@ -51,7 +51,7 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 ## 1. Install Conda
 ### The easiest way
 
-1) Download __Anaconda__ installer from [here](https://www.anaconda.com/download/success).
+1) Download __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
 
 2) Run the installer and follow the steps without changing any options, unless:
 > [!CAUTION]
