@@ -22,3 +22,4 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 # Autres ressources utiles
 
+* [Explorer le contenu d'un fichier h5 avec h5py](https://docs.h5py.org/en/stable/quick.html).
