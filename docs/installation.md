@@ -37,7 +37,7 @@ __You have python installed and setted up.__
 
 ## Install new packages
 
-To install any new package, run the __anaconda prompt__ (see below). Then run the following command (example here to install `lmfit`) :
+To install any new package, run the __anaconda prompt__ (see above). Then run the following command (example here to install `lmfit`) :
 
 ```
 conda install lmfit
