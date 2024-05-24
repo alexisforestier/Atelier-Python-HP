@@ -7,9 +7,7 @@
 
 
 2) Run the installer and follow the steps without changing any options, unless:
-> [!CAUTION]
-> If your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3)   
-> If your **username** contains spaces, change the installation directory to "C:\Anaconda".
+If your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3). If your **username** contains spaces, change the installation directory to "C:\Anaconda".
 
 
 3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
@@ -20,7 +18,7 @@
 We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
 
 
-4) From __anaconda prompt__ that you can run from __Anaconda Navigator__ (Windows) or any terminal (GNU/Linux, Mac), add conda-forge repository (__required only 1 time__). This will allow to install all the packages you may need from the *conda-forge* repository. 
+4) From __anaconda prompt__, that you can run from __Anaconda Navigator__ (Windows) or any terminal (GNU/Linux, Mac), add conda-forge repository (__required only 1 time__). This will allow to install all the packages you may need from the *conda-forge* repository. 
 
 ![](tuto_screenshots/navigator_prompt.PNG)
 
@@ -34,10 +32,11 @@ conda config --set channel_priority strict
 ![](tuto_screenshots/condachannels1.PNG)
 ![](tuto_screenshots/condachannels2.PNG)
 
+You have python installed and setted up. 
 
 ## Install new packages
 
-To install a new package, run the __anaconda prompt__ (see below). Then run the following command (example to install `lmfit`) :
+To install any new package, run the __anaconda prompt__ (see below). Then run the following command (example here to install `lmfit`) :
 
 ```
 conda install lmfit
@@ -50,15 +49,14 @@ When asked to proceed, type `y` and `enter`.
 The new package is installing.
 
 
-> **Important**
-> To install all required packages that are not included in __anaconda__ for our workshop, run in a single command line :
-> ```
-> conda install lmfit h5py hdf5plugin fabio pyFAI
-> ```
+
+__To install all required packages that are not included in Anaconda for our workshop, run in a single command line :__
+```
+conda install lmfit h5py hdf5plugin fabio pyFAI
+```
 
 
-
-### A "cleaner" way
+### A "cleaner", compact way
 
 Install Miniconda **OR** Anaconda (NOT both)
 
