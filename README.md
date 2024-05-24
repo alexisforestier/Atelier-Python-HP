@@ -49,14 +49,20 @@ Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Diopta
 
 
 ## 1. Install Conda
-### The easiest way
+### The easiest way  
 
 1) Download __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
 
 2) Run the installer and follow the steps without changing any options, unless:
 > [!CAUTION]
 > Do not install in the default directory (C:\Users\username\anaconda3) if **username** contains spaces  
-> if **username** contains spaces change the installation directory to "C:\Anaconda"
+> if **username** contains spaces change the installation directory to "C:\Anaconda".
+
+3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
+
+
+
+We are mainly interested in __Spyder__ and __Jupyter Notebook__ in our workshop.
 
 
 
