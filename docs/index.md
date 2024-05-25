@@ -30,3 +30,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Un outil avec interface graphique pour visualiser l'arborescence de fichiers h5 : [ViTables](https://vitables.org/)
 * Un autre outil avec de nombreuses fonctionnalités pour l'analyse des données : [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
 * [Accéder au contenu d'un fichier h5 avec la librairie h5py](https://docs.h5py.org/en/stable/quick.html)
+
+### Générer des executables
+
+* Le package PyInstaller permet de créer des executables : [page officielle et documentation](https://pyinstaller.org/en/stable/) 
