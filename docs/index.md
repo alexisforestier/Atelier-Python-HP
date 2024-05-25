@@ -22,5 +22,9 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 # Autres ressources utiles
 
-* [Explorer le contenu d'un fichier h5 avec h5py](https://docs.h5py.org/en/stable/quick.html)
-* 
+## Bases de python
+
+
+## Fichiers au format HDF5
+* Deux outils graphiques pour visualiser l'arborescence de fichiers h5 : [ViTables](https://vitables.org/), [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
+* [Accéder au contenu d'un fichier h5 avec la librairie h5py](https://docs.h5py.org/en/stable/quick.html)
