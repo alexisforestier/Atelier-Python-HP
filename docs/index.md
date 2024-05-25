@@ -22,10 +22,10 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 # Autres ressources utiles
 
-## Bases de python
+### matplotlib 
 
 
-## Fichiers au format HDF5
+### Fichiers au format HDF5
 
 * Un outil avec interface graphique pour visualiser l'arborescence de fichiers h5 : [ViTables](https://vitables.org/)
 * Un autre outil avec de nombreuses fonctionnalités pour l'analyse des données : [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
