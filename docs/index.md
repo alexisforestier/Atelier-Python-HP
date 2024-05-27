@@ -36,7 +36,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * [Galerie d'exemples de graphiques matplotlib](https://matplotlib.org/stable/gallery/index.html)
 * [Liste des noms de couleurs matplotlib](https://matplotlib.org/stable/gallery/color/named_colors.html#css-colors)
 * [Liste des types de symboles matplotlib](https://matplotlib.org/stable/api/markers_api.html)
-* Une autre bilbiothèque pour le tracé de graphiques interactifs : [plotly](https://plotly.com/python/)
+* Une autre bilbiothèque qui permet de réaliser des graphiques interactifs : [plotly](https://plotly.com/python/)
 * D'autres bibliothèque pour le tracé graphique, __Seaborn__ et __Bokeh__ : [Galerie d'exemples de Seaborn](https://seaborn.pydata.org/examples/index.html), [Galerie d'exemples de Bokeh](https://docs.bokeh.org/en/latest/docs/gallery.html)
 
 ### Fichiers au format HDF5
