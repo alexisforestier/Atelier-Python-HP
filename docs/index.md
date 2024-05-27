@@ -25,6 +25,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Bases
 
+* Documentation officielle de Python sur [docs.python.org](https://docs.python.org/fr/3/contents.html). 
 * Les bases de python : boucles for/while, tests if else, fonctions et opérateurs, types natifs, listes, tuples et dictionnaires etc. : [sur courspython.com](https://courspython.com/bases-python.html)
 * Manipulation de tableaux numpy : [doc. de numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
 * Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), voir aussi : [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
@@ -32,6 +33,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Indexation des DataFrame de pandas : [dans la documentation de pandas](https://pandas.pydata.org/docs/user_guide/indexing.html)
 * [Les compréhension de listes](https://www.docstring.fr/glossaire/comprehension-de-liste/)
 * [Types mutables, non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
+* Gestion des exceptions, try...except : [sur docs.python.org](https://docs.python.org/fr/3/tutorial/errors.html)
 * Quelques bases de programmation orientée objet : [sur courspython.com](https://courspython.com/classes-et-objets.html)
 
 ### Quelques programmes
