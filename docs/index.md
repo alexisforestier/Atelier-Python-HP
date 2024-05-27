@@ -20,16 +20,18 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Analyse d'un spectre de rayonnement de corps noir. [Visualiser](https://github.com/alexisforestier/Atelier-Python-HP/blob/main/Corps_Noir_demo_fit/Corps_Noir_demo.ipynb) [Télécharger](https://github.com/alexisforestier/Atelier-Python-HP/tree/main/Corps_Noir_demo_fit)
 * Ouverture et intégration azimuthale d'une plaque image de diffraction des rayons X au format HDF5 (.h5) [Visualiser](https://github.com/alexisforestier/Atelier-Python-HP/blob/main/Plaque_image_XRD_demo/Plaque_image_h5.ipynb) [Télécharger](https://github.com/alexisforestier/Atelier-Python-HP/tree/main/Plaque_image_XRD_demo)
 
+
 # Autres ressources utiles
 
 ### Bases
 
 * Les bases de python : les types natifs, les boucles `for` et les tests `if, else`, les fonctions et opérateurs...etc. : [sur *courspython.com*](https://courspython.com/bases-python.html)
-* Manipulation de tableaux `numpy`: [documentation de `numpy`](https://numpy.org/doc/stable/user/absolute_beginners.html)
-* Indexation des tableaux `numpy` : [Dans la documentation de `numpy`](https://numpy.org/doc/stable/user/basics.indexing.html), [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
+* Manipulation de tableaux `numpy`: [doc. de `numpy`](https://numpy.org/doc/stable/user/absolute_beginners.html)
+* Indexation des tableaux `numpy` : [dans la documentation de `numpy`](https://numpy.org/doc/stable/user/basics.indexing.html), [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
 * La librairie `pandas`, utilisation du type `DataFrame` : [documentation de `pandas`](https://pandas.pydata.org/docs/user_guide/index.html)
-* Indexation des `DataFrame` de `pandas` : [Dans la documentation de `pandas`](https://pandas.pydata.org/docs/user_guide/indexing.html) 
-* [Types mutables et non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
+* Indexation des `DataFrame` de `pandas` : [dans la documentation de `pandas`](https://pandas.pydata.org/docs/user_guide/indexing.html)
+* [Les compréhension de listes](https://www.docstring.fr/glossaire/comprehension-de-liste/)
+* [Types mutables, non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
 * Quelques bases de programmation orientée objet : [sur *courspython.com*](https://courspython.com/classes-et-objets.html)
 
 ### Quelques programmes
