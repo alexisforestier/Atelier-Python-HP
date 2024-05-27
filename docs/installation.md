@@ -1,7 +1,7 @@
 # Python Installation with conda distribution
 ## The easiest way  
 
-1) Download __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
+1) Download the __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
 
 ![](tuto_screenshots/download_installer.PNG)
 
@@ -21,8 +21,9 @@ We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop
 
 ![](tuto_screenshots/navigator_prompt.PNG)
 
-We will add conda-forge repository (__this is required only 1 time at installation__). This will allow you to install all the packages you may need from the *conda-forge* repository later. 
-Run the following two commands one after the other:
+
+We will add conda-forge repository (__this is required only one time at installation__). This will allow you to install all the packages you may need from the *conda-forge* repository later. 
+Run the following two commands one after the other as shown:
 
 ```bash
 conda config --add channels conda-forge
@@ -56,7 +57,7 @@ conda install lmfit h5py hdf5plugin fabio pyFAI
 ```
 
 
-### A "cleaner", compact way
+### A "cleaner" and more compact installation of Python
 
 Install Miniconda **OR** Anaconda (NOT both)
 
