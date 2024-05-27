@@ -22,15 +22,22 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 # Autres ressources utiles
 
-### Quelques programmes utiles 
+### Quelques programmes
 
 * __MyPGM__, un outil avec interface graphique écrit en python avec Qt pour le post-traitement (fit...) des mesures de jauges de pression (rubis, samarium, nitrure de bore, edge Raman du diamant, vibron H2) :  [MyPGM](https://github.com/AHilberer/myPGM)
 * __RubyCond__, un outil graphique pour la mesure de pression avec la luminescence du rubis, pilotage du spectro OceanOptics (écrit en python + tkinter) : [RubyCond](https://github.com/CelluleProjet/Rubycond)
 * __h5temperature__, un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5 : [h5temperature](https://github.com/alexisforestier/h5temperature)
 * __Amorpheus__, un programme python pour l'analyse des données de diffraction des rayons X sur les liquides et solides amorphes : [Amorpheus](https://github.com/CelluleProjet/Amorpheus), voir aussi la publication associée : [Boccato et al. High Pressure Research 2022, vol. 42, No. 1, 69–93](https://www.tandfonline.com/doi/full/10.1080/08957959.2022.2032032)
-* __Dioptas__ Programme graphique (python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression : [Dioptas](https://www.clemensprescher.com/programs/dioptas)
+* __Dioptas__, programme graphique très complet (écrit en python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression : [Dioptas](https://www.clemensprescher.com/programs/dioptas)
 
-### matplotlib 
+### Tracé de graphiques
+
+* [Guide de l'utilisateur matplotlib](https://matplotlib.org/stable/users/index.html)
+* [Galerie d'exemples de graphiques matplotlib](https://matplotlib.org/stable/gallery/index.html)
+* [Liste des couleurs nommées de matplotlib](https://matplotlib.org/stable/gallery/color/named_colors.html#css-colors)
+* [Types de symboles matplotlib](https://matplotlib.org/stable/api/markers_api.html)
+* Une autre bilbiothèque pour le tracé de graphiques interactifs : [plotly](https://plotly.com/python/)
+* D'autres bibliothèque pour le tracé graphique, __Seaborn__ et __Bokeh__ : [Galerie d'exemples de Seaborn](https://seaborn.pydata.org/examples/index.html), [Galerie d'exemples de Bokeh](https://docs.bokeh.org/en/latest/docs/gallery.html)
 
 
 ### Fichiers au format HDF5
