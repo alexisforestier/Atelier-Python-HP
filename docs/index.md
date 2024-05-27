@@ -27,7 +27,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 * Les bases de python : les types natifs, les boucles for et les tests if, else, les fonctions et opérateurs... etc. : [sur courspython.com](https://courspython.com/bases-python.html)
 * Manipulation de tableaux numpy: [doc. de numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
-* Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
+* Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), voir aussi : [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
 * La librairie pandas, utilisation du type DataFrame : [documentation de pandas](https://pandas.pydata.org/docs/user_guide/index.html)
 * Indexation des DataFrame de pandas : [dans la documentation de pandas](https://pandas.pydata.org/docs/user_guide/indexing.html)
 * [Les compréhension de listes](https://www.docstring.fr/glossaire/comprehension-de-liste/)
@@ -44,22 +44,26 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Tracé de graphiques
 
-* [Guide de l'utilisateur `matplotlib`](https://matplotlib.org/stable/users/index.html)
-* [Galerie d'exemples de graphiques `matplotlib`](https://matplotlib.org/stable/gallery/index.html)
-* [Liste des noms de couleurs `matplotlib`](https://matplotlib.org/stable/gallery/color/named_colors.html#css-colors)
-* [Liste des types de symboles `matplotlib`](https://matplotlib.org/stable/api/markers_api.html)
-* Une autre bilbiothèque qui permet de réaliser des graphiques interactifs : [`plotly`](https://plotly.com/python/)
-* D'autres bibliothèques pour le tracé graphique, `Seaborn` et `Bokeh` : [Galerie d'exemples de Seaborn](https://seaborn.pydata.org/examples/index.html), [Galerie d'exemples de Bokeh](https://docs.bokeh.org/en/latest/docs/gallery.html)
+* [Guide de l'utilisateur matplotlib](https://matplotlib.org/stable/users/index.html)
+* [Galerie d'exemples de graphiques matplotlib](https://matplotlib.org/stable/gallery/index.html)
+* [Liste des noms de couleurs de matplotlib](https://matplotlib.org/stable/gallery/color/named_colors.html#css-colors)
+* [Liste des types de symboles de matplotlib](https://matplotlib.org/stable/api/markers_api.html)
+* Une autre bilbiothèque qui permet de réaliser des graphiques interactifs dans un notebook jupyter : [plotly](https://plotly.com/python/)
+* D'autres bibliothèques pour le tracé graphique, Seaborn et Bokeh : [Galerie d'exemples de Seaborn](https://seaborn.pydata.org/examples/index.html), [Galerie d'exemples de Bokeh](https://docs.bokeh.org/en/latest/docs/gallery.html)
+
+### Interfaces graphiques 
+
+* La bibliothèque Qt, qui permet le plus de possibilités (bibliothèque également utilisée en C, C++ pour de nombreux logiciels) : [documentation officielle](https://www.riverbankcomputing.com/static/Docs/PyQt5/), [Introduction](https://courspython.com/interfaces.html), un très bon site avec de nombreux exemples pour les figures, les tableaux etc... : [pythonguis.com](https://www.pythonguis.com/tutorials/creating-your-first-pyqt-window/)
+* La bibliothèque tkinter : [documentation officielle](https://docs.python.org/fr/3/library/tkinter.html)
 
 ### Fichiers au format HDF5
 
 * Un outil avec interface graphique pour visualiser l'arborescence de fichiers h5 : [ViTables](https://vitables.org/)
 * Un autre outil avec de nombreuses fonctionnalités pour l'analyse des données : [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
-* [Accéder au contenu d'un fichier h5 avec la librairie `h5py`](https://docs.h5py.org/en/stable/quick.html)
+* Accéder au contenu d'un fichier h5 avec la librairie h5py : [Documentation de h5py](https://docs.h5py.org/en/stable/quick.html)
 
 ### Générer des executables
-
-* Le package `PyInstaller` permet de créer des executables à partir de codes python (utilisé notemment par Dioptas) : [page officielle et documentation](https://pyinstaller.org/en/stable/) 
+* Le package PyInstaller permet de créer des executables à partir de codes python (utilisé notemment par Dioptas) : [page officielle et documentation](https://pyinstaller.org/en/stable/) 
 
 ### Contacts
 
