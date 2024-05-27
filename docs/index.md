@@ -53,7 +53,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Interfaces graphiques 
 
-* La bibliothèque Qt, qui permet le plus de possibilités (bibliothèque également utilisée en C, C++ pour de nombreux logiciels) : [documentation officielle](https://www.riverbankcomputing.com/static/Docs/PyQt5/), [Introduction](https://courspython.com/interfaces.html), un très bon site avec de nombreux exemples pour les figures, les tableaux etc... : [pythonguis.com](https://www.pythonguis.com/tutorials/creating-your-first-pyqt-window/)
+* La bibliothèque Qt, qui permet le plus de possibilités (bibliothèque issue du C++ et utilisée pour de nombreux logiciels) : [documentation officielle](https://www.riverbankcomputing.com/static/Docs/PyQt5/), [Une introduction sur courspython.com](https://courspython.com/interfaces.html), un très bon site avec de nombreux exemples pour les figures, les tableaux etc... : [pythonguis.com](https://www.pythonguis.com/tutorials/creating-your-first-pyqt-window/)
 * La bibliothèque tkinter : [documentation officielle](https://docs.python.org/fr/3/library/tkinter.html)
 
 ### Fichiers au format HDF5
