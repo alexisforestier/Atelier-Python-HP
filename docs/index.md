@@ -24,7 +24,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Bases
 
-* [Les bases de python sur *courspython.com* : les types natifs, les boucles et les tests, fonctions et opérateurs...](https://courspython.com/bases-python.html)
+* [Les bases de python sur *courspython.com* : les types natifs, les boucles `for` et les tests `if, else`, les fonctions et opérateurs...etc.](https://courspython.com/bases-python.html)
 * [Les bases de la manipulation de tableaux `numpy` (documentation de `numpy`)](https://numpy.org/doc/stable/user/absolute_beginners.html)
 * [La librairie `pandas`, utilisation du type `DataFrame`](https://pandas.pydata.org/docs/user_guide/index.html)
 * [Types mutables et non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
