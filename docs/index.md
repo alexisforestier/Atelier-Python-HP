@@ -25,7 +25,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Bases
 
-* Les bases de python : les types natifs, les boucles for et les tests if, else, les fonctions et opérateurs, les listes, tuples et dictionnaires... etc. : [sur courspython.com](https://courspython.com/bases-python.html)
+* Les bases de python : boucles for/while, tests if else, fonctions et opérateurs, types natifs, listes, tuples et dictionnaires etc. : [sur courspython.com](https://courspython.com/bases-python.html)
 * Manipulation de tableaux numpy: [doc. de numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
 * Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), voir aussi : [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
 * La librairie pandas, utilisation du type DataFrame : [documentation de pandas](https://pandas.pydata.org/docs/user_guide/index.html)
