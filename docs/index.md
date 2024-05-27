@@ -56,3 +56,17 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 ### Générer des executables
 
 * Le package `PyInstaller` permet de créer des executables à partir de codes python (utilisé notemment par Dioptas) : [page officielle et documentation](https://pyinstaller.org/en/stable/) 
+
+### Contacts
+
+**Alexis FORESTIER**
+- alexis.forestier@cea.fr
+
+**Antoine HILBERER**
+- antoine.hilberer@cea.fr
+
+**Yiuri GARINO**  
+- yiuri.garino@cnrs.fr
+   
+**Silvia BOCCATO**
+- silvia.boccato@cnrs.fr
