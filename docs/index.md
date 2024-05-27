@@ -22,6 +22,13 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 # Autres ressources utiles
 
+### Bases
+
+* [Les bases du python sur courspython.com : les types natifs, les boucles et les tests, fonctions et opérateurs...](https://courspython.com/bases-python.html)
+* [Les bases de la manipulation de tableaux numpy (documentation de numpy)](https://numpy.org/doc/stable/user/absolute_beginners.html)
+* [La librairie pandas, utilisation des `DataFrame`](https://pandas.pydata.org/docs/user_guide/index.html)
+* [Quelques bases de programmation orientée objet sur courspython.com : utilisation des classes](https://courspython.com/classes-et-objets.html)
+
 ### Quelques programmes
 
 * __Dioptas__, programme graphique très complet (écrit en python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression : [Dioptas](https://www.clemensprescher.com/programs/dioptas)
@@ -47,4 +54,4 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Générer des executables
 
-* Le package PyInstaller permet de créer des executables : [page officielle et documentation](https://pyinstaller.org/en/stable/) 
+* Le package PyInstaller permet de créer des executables à partir de codes python: [page officielle et documentation](https://pyinstaller.org/en/stable/) 
