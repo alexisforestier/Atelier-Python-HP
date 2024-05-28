@@ -25,8 +25,8 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Bases
 
-* Documentation officielle de Python sur [docs.python.org](https://docs.python.org/fr/3/index.html).
-* Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda: [docs.conda.io](https://docs.conda.io/en/latest/#)
+* Documentation officielle de Python [sur docs.python.org](https://docs.python.org/fr/3/index.html).
+* Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda: [sur docs.conda.io](https://docs.conda.io/en/latest/#)
 * Les bases de python : boucles for/while, tests if else, fonctions et opérateurs, types natifs, listes, tuples et dictionnaires etc. : [sur courspython.com](https://courspython.com/bases-python.html)
 * Manipulation de tableaux numpy : [doc. de numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
 * Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), voir aussi : [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
