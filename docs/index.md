@@ -43,6 +43,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * __Amorpheus__, un programme python pour l'analyse des données de diffraction des rayons X sur les liquides et solides amorphes : [Amorpheus](https://github.com/CelluleProjet/Amorpheus), voir aussi la publication associée : [Boccato et al. High Pressure Research 2022, vol. 42, No. 1, 69–93](https://www.tandfonline.com/doi/full/10.1080/08957959.2022.2032032)
 * __myPGM__, un outil avec interface graphique écrit en python avec Qt pour le post-traitement (fit...) des mesures spectroscopiques de jauges de pression (rubis, samarium, Raman du nitrure de bore cubique, edge Raman du diamant, vibron H2) :  [myPGM](https://github.com/AHilberer/myPGM)
 * __RubyCond__, un outil graphique pour la mesure de pression avec la luminescence du rubis, avec pilotage en direct du spectromètre OceanOptics (écrit en python + tkinter) : [RubyCond](https://github.com/CelluleProjet/Rubycond)
+* __Smile__, un outil pour la visualisation via caméra USB de microscope [Smile](https://github.com/CelluleProjet/Smile]
 * __h5temperature__, un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5 : [h5temperature](https://github.com/alexisforestier/h5temperature)
 
 ### Tracé de graphiques
@@ -64,6 +65,11 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Un outil avec interface graphique pour visualiser l'arborescence de fichiers h5 : [ViTables](https://vitables.org/)
 * Un autre outil avec de nombreuses fonctionnalités pour l'analyse des données : [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
 * Accéder au contenu d'un fichier h5 avec la librairie h5py : [documentation de h5py](https://docs.h5py.org/en/stable/quick.html)
+
+### Accélerer Python, optimisation
+
+* [Cython](https://cython.org/) est une extension de Python qui permet d'appeler des fonctions C et de déclarer des types statiques C. Cython convertit le code en C/C++ puis le compile afin d'obtimiser les performances, [informations et exemple simple sur Wikipedia](https://fr.wikipedia.org/wiki/Cython).
+* [Numba](https://numba.pydata.org/) permet de compiler du code python (en particulier employant numpy) afin de se rapprocher des performances du C ou du FORTRAN.
 
 ### Générer des executables
 * Le package PyInstaller permet de créer des executables à partir de codes python (utilisé notemment par Dioptas) : [documentation](https://pyinstaller.org/en/stable/) 
