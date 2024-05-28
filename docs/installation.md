@@ -33,7 +33,7 @@ conda config --set channel_priority strict
 ![](tuto_screenshots/condachannels1.PNG)
 ![](tuto_screenshots/condachannels2.PNG)
 
-__You have python installed and setted up.__ 
+__You have python installed and set up.__ 
 
 
 ## Install new packages
@@ -57,7 +57,7 @@ conda install lmfit h5py hdf5plugin fabio pyFAI
 ```
 
 
-### A "cleaner" and more compact installation of Python
+## A "cleaner" and more compact installation of Python
 
 Install Miniconda **OR** Anaconda (NOT both)
 
