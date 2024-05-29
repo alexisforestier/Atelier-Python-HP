@@ -1,217 +1,16 @@
 
 
 # Atelier "Python pour l’analyse des données haute pression"
+## [14e Forum de technologie des hautes pressions](https://forumhp2024.sciencesconf.org/)  
+## *Nouvelles frontières en haute pression : de l'instrumentation à l'analyse de données*
+## 3-7 juin 2024 - Argelès-sur-Mer
+
 Cet atelier propose une initiation à l'analyse de données en utilisant le langage de programmation Python, adapté au contexte des expériences haute pression. L’objectif est de montrer un aperçu des vastes possibilités et de fournir des informations utiles à la fois pour les débutants et les utilisateurs confirmés, sans se focaliser sur la syntaxe du langage. Python bénéficie d’une grande popularité et est très utilisé dans la gestion et l'analyse de données, ainsi que pour le pilotage des expériences sur grands instruments (ESRF, Soleil...). Il figure désormais parmi les langages les plus enseignés aux étudiants en sciences.
 
-Des tutoriels et exemples seront fournis, permettant de prendre en main le langage. Les aspects suivant seront abordés :
+Des tutoriels et exemples seront fournis, permettant de prendre en main le langage. 
 
-- Installation de Python, stratégies d'utilisation (Spyder, notebook, etc.).
+L'ensemble des ressources compilées pour cet atelier est disponible sur la page web dédiée [ici](https://alexisforestier.github.io/Atelier-Python-HP/), et le code source sur cette page GitHub.
 
-- Démonstration des possibilités : programmes d'analyse de données simples, programmes avancés avec interfaces graphiques.
-
-- Ouverture de fichiers de données aux formats ASCII et HDF5, manipulation, visualisation des données (bibliothèques numpy, matplotlib...).
-
-- Les bibliothèques les plus utile pour diverses applications.
-
-- Mise en pratique : ajustements non linéaire (bibliothèque LMFIT), application aux spectres de luminescence du rubis utilisé comme jauge de pression.
-
-# Where ? 14e Forum de technologie des hautes pressions
-Nouvelles frontières en haute pression : de l'instrumentation à l'analyse de données  
-3-7 juin 2024 - Argelès-sur-Mer  
-  
-[14e Forum de technologie des hautes pressions](https://forumhp2024.sciencesconf.org/)  
-
-# Atelier Table of contents: 
-> [!NOTE]
-> Silvia WIP
-
-1. Introduction
-2. Python as analytical tool and/or Instrument Control Software
-3. Graphical interfaces face to face
-Command based interface (Amorpheus) – Tkinter (rubycond) – Qt5(myPRL, Dioptas)
-4. How to python: Spyder vs. Notebook
-5. Useful libraries: matplotlib, lmfit, h5py (fabio?, vitables in Qt5?)
-6. Hands on: fit a ruby signal, fit a temperature with two colors analysis
-
-# Additional info:
-> [!NOTE]
-> This page Table of contents
-
-1. Install Conda (Yiuri)
-2. Spyder tips and tricks (Yiuri)
-3. Jupyter Notebook (Alexis/Antoine)
-4. lmfit examples (Yiuri)
-5. h5py (???)
-6. fit a ruby signal (???)
-7. fit a temperature with two colors analysis (???)
-8. Shortcuts to filename.py in my_env (Yiuri)
-9. Shortcuts to app in my_env (Yiuri)
-
-
-## 1. Install Conda
-### The easiest way  
-
-1) Download __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
-
-2) Run the installer and follow the steps without changing any options, unless:
-> [!CAUTION]
-> If your **username** on Windows contains spaces, do not install in the default directory (C:\Users\username\anaconda3)   
-> If your **username** contains spaces, change the installation directory to "C:\Anaconda".
-
-3) You now have a new software called __Anaconda Navigator__ in the startup menu. Launch it. You will see a number of different applications that you can use:
-
-We are mainly interested in __Spyder__ and __Jupyter Notebook__ in this workshop.
-
-4) From anaconda prompt (Windows) or a terminal (GNU/Linux, Mac) add conda-forge repository (__required only 1 time__). This will allow to install the packages you need from this repository. 
-
-```bash
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-```
-
-### Install new packages
-
-2) 
-
-
-
-### A "cleaner" way
-
-Miniconda **OR** Anaconda (NOT both)
-
-   - Miniconda  
-   https://docs.anaconda.com/free/miniconda/miniconda-install/
-  
-   - Anaconda  
-   https://docs.anaconda.com/anaconda/install/
-  
-
-
-
-3) Create a new virtual environment with name "my_env":
-
-```bash
-conda create -n my_env
-```
-to save time, you can directly create the environment with some installed packages, or install later (point5)
-
-```bash
-conda create -n my_env spyder lmfit matplotlib pathlib configparser
-```
-
-4) activate the virtual environment
-```bash
-conda activate my_env 
-```
-the name at the beginning of the line will change from "base" to "my_env" indicating that now you are working in the "my_env" environment
-<!-- single line warning style = :warning: Never Install software in the "base" environment -->
-
-> [!WARNING]
-> Never Install software in the "base" environment
-  
-5) install the programs **if** you have not installed them before on point 3
-```bash
-conda install spyder
-```
-
-6) launch spyder
-
-```bash
-spyder
-```
-
-7) list all the virtual environments
-```bash
-conda env list
-```
-The output will show the environmet names and installation folders 
-
-8) delete my_env
-```bash
-conda remove -n my_env
-```
-
-9) changing Env folder
-'''bash
-conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathlib configparser 
-conda activate D:\folder\my_env
-conda env remove --prefix D:\folder\my_env
-'''
-
-## 2. Spyder tips and tricks
-> [!NOTE]
-> Yiuri WIP  
-
-  https://docs.spyder-ide.org/3/editor.html
-  
-figure 1 2 3
-
-inline plot
-
-report
-Save as HTML (Ctrl+S)
-
-working directory
-Tools => Preferences => Run
-On the Panel on the right change "Working directory settings" to "The current working directory"
-**Apply** 
-
-On the Top right drop down menu change directory
-
-> [!WARNING]
-> new directory accepted if the check mark ✔ is gray (pink = NOT accepted)
-  
-kernel
-
-scripts debug
-
-
-
-## 3 Shortcuts to filename.py in my_env
-right click on the link, Properties
-
-![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
-
-
-**Target** : 
-%windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & python "D:\path_to_script\filename.py"
-
-**Start in:**
-%HOMEPATH
-
-**Where:**
-
-1) Anaconda or Miniconda installation folder 
-C:\Users\yiuri\anaconda3\Scripts\activate.bat
-
-2) Env folder (from command "conda env list: in conda prompt)
-my_env                C:\Users\username\anaconda3\envs\my_env
-
-3) Python script to be launched in Env, use it inside "" to account space in folder name (if any)
-D:\path_to_script\filename.py
-
-## 4 Shortcuts to app in my_env
-right click on the link, Properties
-
-![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
-
-
-**Target** : 
-%windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & app_name
-  
-**Start in:**
-%HOMEPATH
-
-**Where:**
-
-1) Anaconda or Miniconda installation folder 
-C:\Users\yiuri\anaconda3\Scripts\activate.bat
-
-2) Env folder (from command "conda env list: in conda prompt)
-my_env                C:\Users\username\anaconda3\envs\my_env
-
-3) app_name installed in Env (like i.e. spyder)
-spyder
 
 # Contacts
 
@@ -220,8 +19,6 @@ spyder
 
 **Antoine HILBERER**
 - antoine.hilberer@cea.fr
-
-CEA or Lab or ... ???
 
 **Yiuri GARINO**  
 - yiuri.garino@cnrs.fr
@@ -246,11 +43,4 @@ Copyright (c) 2022-2023 ???
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
-
-# Usefuls Links for this page
-
-[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
-[Rubycond](https://github.com/CelluleProjet/Rubycond)  
-[Amorpheus](https://github.com/CelluleProjet/Amorpheus)  
-[Smile](https://github.com/CelluleProjet/Smile)  
 
