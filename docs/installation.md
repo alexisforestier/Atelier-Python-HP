@@ -65,7 +65,7 @@ Create a new virtual environment with name "my_env":
 ```
 conda create -n my_env
 ```
-to save time, you can directly create the environment with some installed packages, or install later (point5)
+to save time, you can directly create the environment with some installed packages, or install later (see below)
 
 ```
 conda create -n my_env spyder lmfit matplotlib pathlib configparser
