@@ -73,8 +73,8 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Contacts
 
-* **Alexis FORESTIER**,  *alexis.forestier@cea.fr*
-* **Antoine HILBERER**,  *antoine.hilberer@cea.fr* 
-* **Yiuri GARINO**,      *yiuri.garino@cnrs.fr*     
-* **Silvia BOCCATO**,    *silvia.boccato@cnrs.fr* 
+* **Alexis FORESTIER**,  alexis.forestier@cea.fr
+* **Antoine HILBERER**,  antoine.hilberer@cea.fr
+* **Yiuri GARINO**,      yiuri.garino@cnrs.fr
+* **Silvia BOCCATO**,    silvia.boccato@cnrs.fr
 
