@@ -32,7 +32,6 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * [Types mutables, non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
 * Gestion des exceptions, try...except : [sur docs.python.org](https://docs.python.org/fr/3/tutorial/errors.html)
 * Quelques bases de programmation orientée objet : [sur courspython.com](https://courspython.com/classes-et-objets.html)
-
 * Documentation officielle de Python [sur docs.python.org](https://docs.python.org/fr/3/index.html).
 * Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda : [sur docs.conda.io](https://docs.conda.io/en/latest/#)
 * Documentation officielle de l'éditeur/IDE Spyder : [sur docs.spyder-ide.org](https://docs.spyder-ide.org/5/index.html)
