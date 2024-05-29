@@ -1,5 +1,19 @@
 # Python Installation with conda distribution
-## The easiest way  
+*Conda* is the most common package manager for the Python programming language, allowing installation of a distribution of Python together with addon modules.
+
+It can be installed alone (light weight but requires some work to reach a usable configuration), or wrapped in a larger distribution for data-science called *Anaconda*. Both installation paths are described here.
+
+**Table of content:**
+ - [Easiest installation](#Anaconda)
+   - [Get started](#startup)
+   - [How to install new packages](#packages)
+ - [Use virtual environments](#venv)
+
+<a id="Anaconda"></a>
+## Easiest installation
+
+<a id="startup"></a>
+### Get started
 
 1) Download the __Anaconda__ installer from the official website: [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
 
@@ -37,7 +51,8 @@ __You have python installed and set up.__
 
 *Instead of installing the full Anaconda distribution you may be interested by [the more lightweight Miniconda distribution](https://docs.anaconda.com/free/miniconda/miniconda-install/), but do not install both!*
 
-# How to install new packages 
+<a id="packages"></a>
+### How to install new packages
 
 To install any new package, run the __anaconda prompt__ (see above). Then run the following command (example here to install `lmfit`) :
 
@@ -57,8 +72,8 @@ __To install several packages, you can use a single command line :__
 conda install numpy matplotlib scipy lmfit h5py hdf5plugin fabio pyFAI tifffile
 ```
 
-
-# Use virtual environments
+<a id="venv"></a>
+## Use virtual environments
   
 Create a new virtual environment with name "my_env":
 
