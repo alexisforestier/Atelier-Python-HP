@@ -36,14 +36,14 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda : [sur docs.conda.io](https://docs.conda.io/en/latest/#)
 * Documentation officielle de l'éditeur/IDE Spyder : [sur docs.spyder-ide.org](https://docs.spyder-ide.org/5/index.html)
 
-### Quelques programmes
+### Quelques programmes orientés haute-pression basés sur Python
 
-* __Dioptas__, programme graphique très complet (écrit en python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression : [Dioptas](https://www.clemensprescher.com/programs/dioptas)
-* __Amorpheus__, un programme python pour l'analyse des données de diffraction des rayons X sur les liquides et solides amorphes : [Amorpheus](https://github.com/CelluleProjet/Amorpheus), voir aussi la publication associée : [Boccato et al. High Pressure Research 2022, vol. 42, No. 1, 69–93](https://www.tandfonline.com/doi/full/10.1080/08957959.2022.2032032)
-* __myPGM__, un outil avec interface graphique écrit en python avec Qt pour le post-traitement (fit...) des mesures spectroscopiques de jauges de pression (rubis, samarium, Raman du nitrure de bore cubique, edge Raman du diamant, vibron H2) :  [myPGM](https://github.com/AHilberer/myPGM)
-* __RubyCond__, un outil graphique pour la mesure de pression avec la luminescence du rubis, avec pilotage en direct du spectromètre OceanOptics (écrit en python + tkinter) : [RubyCond](https://github.com/CelluleProjet/Rubycond)
-* __Smile__, un outil pour la visualisation via caméra USB de microscope : [Smile](https://github.com/CelluleProjet/Smile)
-* __h5temperature__, un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5 : [h5temperature](https://github.com/alexisforestier/h5temperature)
+* [__Dioptas__](https://www.clemensprescher.com/programs/dioptas), programme graphique très complet (écrit en python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression
+* [__Amorpheus__](https://github.com/CelluleProjet/Amorpheus), un programme python pour l'analyse des données de diffraction des rayons X sur les liquides et solides amorphes, voir la publication associée : [Boccato et al. High Pressure Research 2022, vol. 42, No. 1, 69–93](https://www.tandfonline.com/doi/full/10.1080/08957959.2022.2032032)
+* [__myPGM__](https://github.com/AHilberer/myPGM), un outil avec interface graphique écrit en python avec Qt pour le post-traitement (fit...) des mesures spectroscopiques de jauges de pression (rubis, samarium, Raman du nitrure de bore cubique, edge Raman du diamant, vibron H2)
+* [__RubyCond__](https://github.com/CelluleProjet/Rubycond), un outil graphique pour la mesure de pression avec la luminescence du rubis, avec pilotage en direct du spectromètre OceanOptics (écrit en python + tkinter)
+* [__Smile__](https://github.com/CelluleProjet/Smile), un outil pour la visualisation via caméra USB de microscope
+* [__h5temperature__](https://github.com/alexisforestier/h5temperature), un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5
 
 ### Tracé de graphiques
 
