@@ -58,7 +58,7 @@ conda install numpy matplotlib scipy lmfit h5py hdf5plugin fabio pyFAI tifffile
 ```
 
 
-## Using virtual environments
+# Use virtual environments
   
 Create a new virtual environment with name "my_env":
 
