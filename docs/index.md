@@ -22,9 +22,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Bases
 
-* Documentation officielle de Python [sur docs.python.org](https://docs.python.org/fr/3/index.html).
-* Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda : [sur docs.conda.io](https://docs.conda.io/en/latest/#)
-* Documentation officielle de l'éditeur/IDE Spyder : [sur docs.spyder-ide.org](https://docs.spyder-ide.org/5/index.html)
+* [Un très bon notebook pour apprendre les bases de python de manière interactive](https://github.com/jupyter/mozfest15-training/blob/master/00-python-intro.ipynb)
 * Les bases de python : boucles for/while, tests if else, fonctions et opérateurs, types natifs, listes, tuples et dictionnaires etc. : [sur courspython.com](https://courspython.com/bases-python.html)
 * Manipulation de tableaux numpy : [doc. de numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
 * Indexation des tableaux numpy : [dans la documentation de numpy](https://numpy.org/doc/stable/user/basics.indexing.html), voir aussi : [le slicing en python](https://anislerouge.com/tutorial-python-slicing/)
@@ -34,6 +32,10 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * [Types mutables, non-mutables](https://bouquinpython.readthedocs.io/fr/latest/mutabilite.html)
 * Gestion des exceptions, try...except : [sur docs.python.org](https://docs.python.org/fr/3/tutorial/errors.html)
 * Quelques bases de programmation orientée objet : [sur courspython.com](https://courspython.com/classes-et-objets.html)
+
+* Documentation officielle de Python [sur docs.python.org](https://docs.python.org/fr/3/index.html).
+* Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda : [sur docs.conda.io](https://docs.conda.io/en/latest/#)
+* Documentation officielle de l'éditeur/IDE Spyder : [sur docs.spyder-ide.org](https://docs.spyder-ide.org/5/index.html)
 
 ### Quelques programmes
 
@@ -64,7 +66,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Un autre outil avec de nombreuses fonctionnalités pour l'analyse des données : [PyMca](http://www.silx.org/doc/PyMca/dev/index.html)
 * Accéder au contenu d'un fichier h5 avec la librairie h5py : [documentation de h5py](https://docs.h5py.org/en/stable/quick.html)
 
-### Accélerer Python, optimisation
+### Accélerer Python : optimisation des temps d'exécution
 
 * [Cython](https://cython.org/) est une extension de Python qui permet d'appeler des fonctions C et de déclarer des types statiques C. Cython convertit le code en C/C++ puis le compile afin d'obtimiser les performances, [informations et exemple simple sur Wikipedia](https://fr.wikipedia.org/wiki/Cython).
 * [Numba](https://numba.pydata.org/) permet de compiler du code python (en particulier employant numpy) afin de se rapprocher des performances du C ou du FORTRAN.
