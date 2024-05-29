@@ -8,6 +8,7 @@ It can be installed alone (light weight if using [miniconda](https://docs.anacon
    - [Get started](#startup)
    - [How to install new packages](#packages)
  - [Use virtual environments](#venv)
+ - [Create Windows shortcuts to execute code directly](#shortcuts)
 
 <a id="Anaconda"></a>
 ## Easiest installation
@@ -121,3 +122,51 @@ conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathl
 conda activate D:\folder\my_env
 conda env remove --prefix D:\folder\my_env
 ```
+
+<a id="shortcuts"></a>
+## Create Windows shortcuts to execute code directly
+To create a shortcut to execute `filename.py` within its associated virtual environment `my_env`, start by right-clicking the file and click 'Create a shortcut'.
+
+Right click on the created link, go to 'Properties'.
+
+![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
+
+Change the **Target** to: 
+%windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & python "D:\path_to_script\filename.py"
+
+**Start in:**
+%HOMEPATH
+
+**Where:**
+
+1) Anaconda or Miniconda installation folder 
+C:\Users\yiuri\anaconda3\Scripts\activate.bat
+
+2) Env folder (from command "conda env list: in conda prompt)
+my_env                C:\Users\username\anaconda3\envs\my_env
+
+3) Python script to be launched in Env, use it inside "" to account space in folder name (if any)
+D:\path_to_script\filename.py
+
+## 4 Shortcuts to app in my_env
+right click on the link, Properties
+
+![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
+
+
+**Target** : 
+%windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & app_name
+  
+**Start in:**
+%HOMEPATH
+
+**Where:**
+
+1) Anaconda or Miniconda installation folder 
+C:\Users\yiuri\anaconda3\Scripts\activate.bat
+
+2) Env folder (from command "conda env list: in conda prompt)
+my_env                C:\Users\username\anaconda3\envs\my_env
+
+3) app_name installed in Env (like i.e. spyder)
+spyder
