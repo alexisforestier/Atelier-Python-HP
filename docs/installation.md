@@ -58,59 +58,50 @@ conda install numpy matplotlib scipy lmfit h5py hdf5plugin fabio pyFAI tifffile
 ```
 
 
-## A "cleaner" and more compact installation of Python
-
-
+## Using virtual environments
   
-   - Anaconda  
-   https://docs.anaconda.com/anaconda/install/
-  
+Create a new virtual environment with name "my_env":
 
-3) Create a new virtual environment with name "my_env":
-
-```bash
+```
 conda create -n my_env
 ```
 to save time, you can directly create the environment with some installed packages, or install later (point5)
 
-```bash
+```
 conda create -n my_env spyder lmfit matplotlib pathlib configparser
 ```
 
-4) activate the virtual environment
-```bash
+Activate the virtual environment:
+
+```
 conda activate my_env 
 ```
 the name at the beginning of the line will change from "base" to "my_env" indicating that now you are working in the "my_env" environment
-<!-- single line warning style = :warning: Never Install software in the "base" environment -->
+__Warning__ Never Install software in the "base" environment
 
-> [!WARNING]
-> Never Install software in the "base" environment
-  
-5) install the programs **if** you have not installed them before on point 3
-```bash
+install the programs you want, if you have not installed them already at creation of the virtual environment:
+```
 conda install spyder
 ```
 
-6) launch spyder
-
-```bash
+You can now launch spyder
+```
 spyder
 ```
 
-7) list all the virtual environments
-```bash
+List all the virtual environments:
+```
 conda env list
 ```
-The output will show the environmet names and installation folders 
+The output will show the environment names and installation folders 
 
-8) delete my_env
-```bash
+8) delete my_env:
+```
 conda remove -n my_env
 ```
 
 9) changing Env folder
-'''bash
+'''
 conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathlib configparser 
 conda activate D:\folder\my_env
 conda env remove --prefix D:\folder\my_env
