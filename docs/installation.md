@@ -79,7 +79,7 @@ conda activate my_env
 The name at the beginning of the line will change from "base" to "my_env" indicating that now you are working in the "my_env" environment
 __Warning:__ Never Install software in the "base" environment
 
-Install the programs you want, if you have not installed them already at creation of the virtual environment, e.g.:
+Install the programs you want, if not already installed at creation of the virtual environment, e.g.:
 ```
 conda install spyder
 ```
