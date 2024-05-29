@@ -1,7 +1,7 @@
 # Python Installation with conda distribution
 *Conda* is the most common package manager for the Python programming language, allowing installation of a distribution of Python together with addon modules.
 
-It can be installed alone (light weight but requires some work to reach a usable configuration), or wrapped in a larger distribution for data-science called *Anaconda*. Both installation paths are described here.
+It can be installed alone (light weight if using [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) for instance, but requires some work to reach a usable configuration), or wrapped in a larger distribution for data-science called *Anaconda*.
 
 **Table of content:**
  - [Easiest installation](#Anaconda)
