@@ -36,7 +36,7 @@ conda config --set channel_priority strict
 __You have python installed and set up.__ 
 
 
-## Install new packages
+# How to install new packages 
 
 To install any new package, run the __anaconda prompt__ (see above). Then run the following command (example here to install `lmfit`) :
 
@@ -51,9 +51,9 @@ When asked to proceed, type `y` and `enter`.
 The new package is installing.
 
 
-__To install all required packages that are not included in Anaconda for our workshop examples, run in a single command line :__
+__To install several packages, you can use a single command line :__
 ```
-conda install lmfit h5py hdf5plugin fabio pyFAI
+conda install numpy matplotlib scipy lmfit h5py hdf5plugin fabio pyFAI tifffile
 ```
 
 
