@@ -1,6 +1,3 @@
-![cnrs](logos/cnrs.png)
-![cea](logos/cea.png)
-
 ![forum](logos/bandeau.jpg)
 # Atelier "Python pour l’analyse des données haute pression"
 
