@@ -84,7 +84,7 @@ Install the programs you want, if you have not installed them already at creatio
 conda install spyder
 ```
 
-You can now launch spyder
+You can now launch spyder in my_env:
 ```
 spyder
 ```
@@ -100,7 +100,7 @@ Delete my_env:
 conda remove -n my_env
 ```
 
-Changing Env folder
+Changing Env folder:
 ```
 conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathlib configparser
 conda activate D:\folder\my_env
