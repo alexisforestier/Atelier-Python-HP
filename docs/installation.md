@@ -35,6 +35,7 @@ conda config --set channel_priority strict
 
 __You have python installed and set up.__ 
 
+*Instead of installing the full Anaconda distribution you may be interested by [the more lightweight Miniconda distribution](https://docs.anaconda.com/free/miniconda/miniconda-install/), but do not install both!*
 
 # How to install new packages 
 
@@ -59,10 +60,7 @@ conda install numpy matplotlib scipy lmfit h5py hdf5plugin fabio pyFAI tifffile
 
 ## A "cleaner" and more compact installation of Python
 
-Install Miniconda **OR** Anaconda (NOT both)
 
-   - Miniconda  
-   https://docs.anaconda.com/free/miniconda/miniconda-install/
   
    - Anaconda  
    https://docs.anaconda.com/anaconda/install/
