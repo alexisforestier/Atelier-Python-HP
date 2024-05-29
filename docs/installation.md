@@ -76,10 +76,10 @@ Activate the virtual environment:
 ```
 conda activate my_env 
 ```
-the name at the beginning of the line will change from "base" to "my_env" indicating that now you are working in the "my_env" environment
-__Warning__ Never Install software in the "base" environment
+The name at the beginning of the line will change from "base" to "my_env" indicating that now you are working in the "my_env" environment
+__Warning:__ Never Install software in the "base" environment
 
-install the programs you want, if you have not installed them already at creation of the virtual environment:
+Install the programs you want, if you have not installed them already at creation of the virtual environment, e.g.:
 ```
 conda install spyder
 ```
@@ -95,14 +95,14 @@ conda env list
 ```
 The output will show the environment names and installation folders 
 
-8) delete my_env:
+Delete my_env:
 ```
 conda remove -n my_env
 ```
 
-9) changing Env folder
+Changing Env folder
 '''
-conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathlib configparser 
+conda create --prefix D:\folder\my_env python=3.10 spyder lmfit matplotlib pathlib configparser
 conda activate D:\folder\my_env
 conda env remove --prefix D:\folder\my_env
 '''
