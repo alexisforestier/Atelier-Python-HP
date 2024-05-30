@@ -20,7 +20,7 @@ L'ensemble des ressources compilées pour cet atelier est disponible sur la page
 **Antoine HILBERER**
 - antoine.hilberer@cea.fr
 
-(cea)[docs/logos/cea.png]
+![cea](docs/logos/cea.png)
 
 **Yiuri GARINO**  
 - yiuri.garino@cnrs.fr
