@@ -135,26 +135,18 @@ Change the **Target** to:
 ```
 %windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & python "D:\path_to_script\filename.py"
 ```
+This command opens a terminal, activates the virtual environment `my_env` and calls the python script `filename.py`
 
 **Start in:**
 ```
 %HOMEPATH
 ```
 
-**Where:**
-
-Anaconda or Miniconda installation folder 
-```
-C:\Users\username\anaconda3\Scripts\activate.bat
-```
-
-Env folder (from command "conda env list: in conda prompt)
-my_env                C:\Users\username\anaconda3\envs\my_env
-
-Python script to be launched in Env, use it inside "" to account for space in folder name (if any)
+Regarding python script to be launched in my_env, use it inside "" to account for space in folder name (if any)
 ```
 D:\path_to_script\filename.py
 ```
+
 ## Shortcuts to an app in my_env (e.g. spyder)
 
 Right click on the link, Properties
@@ -165,19 +157,10 @@ Right click on the link, Properties
 **Target** : 
 ```
 %windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & app_name
-  ```
-
+```
+This command opens a terminal, activates the virtual environment `my_env` and calls `app_name`
 **Start in:**
 ```
 %HOMEPATH
 ```
-**Where:**
-
-Anaconda or Miniconda installation folder 
-C:\Users\username\anaconda3\Scripts\activate.bat
-
-Env folder (from command "conda env list: in conda prompt)
-my_env                C:\Users\username\anaconda3\envs\my_env
-
-app_name installed in Env (like i.e. spyder)
-spyder
+app_name is for example `spyder`
