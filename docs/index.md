@@ -1,6 +1,6 @@
 ![forum](logos/bandeau.jpg)
-![forum](logos/cea.png)
-![forum](logos/cnrs.png)
+<img src="docs/logos/cea.png" width="100" height="100">
+<img src="docs/logos/cnrs.png" width="100" height="100">
 
 
 # Atelier "Python pour l’analyse des données haute pression"
