@@ -8,7 +8,7 @@ It can be installed alone (light weight if using [miniconda](https://docs.anacon
    - [Get started](#startup)
    - [How to install new packages](#packages)
  - [Use virtual environments](#venv)
- - [Create Windows shortcuts to execute code directly](#shortcuts)
+ - [Create Windows shortcuts](#shortcuts)
 
 <a id="Anaconda"></a>
 ## Easiest installation
@@ -124,7 +124,7 @@ conda env remove --prefix D:\folder\my_env
 ```
 
 <a id="shortcuts"></a>
-## Create Windows shortcuts to execute code directly (.py file)
+## Create Windows shortcuts to execute your .py file with one click
 To create a shortcut to execute `filename.py` within its associated virtual environment `my_env`, start by right-clicking the file and click 'Create a shortcut'.
 
 Right click on the created link, go to 'Properties'.
@@ -144,7 +144,9 @@ Change the **Target** to:
 **Where:**
 
 Anaconda or Miniconda installation folder 
+```
 C:\Users\username\anaconda3\Scripts\activate.bat
+```
 
 Env folder (from command "conda env list: in conda prompt)
 my_env                C:\Users\username\anaconda3\envs\my_env
