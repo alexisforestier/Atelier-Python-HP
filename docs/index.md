@@ -12,7 +12,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 # Ressources 
 
 * Slides de présentation. 
-* [Tutoriel : installation de python, de packages additionnels, et utilisation des environments virtuels](installation.md)
+* [Tutoriel : installation de python, de packages additionnels, et utilisation des environnements virtuels](installation.md)
 * Fit d'un spectre de luminescence du rubis. [Visualiser](https://github.com/alexisforestier/Atelier-Python-HP/blob/main/Rubis_demo_fit/Rubis_demo.ipynb) [Télécharger](https://github.com/alexisforestier/Atelier-Python-HP/tree/main/Rubis_demo_fit)
 * Analyse d'un spectre de rayonnement de corps noir. [Visualiser](https://github.com/alexisforestier/Atelier-Python-HP/blob/main/Corps_Noir_demo_fit/Corps_Noir_demo.ipynb) [Télécharger](https://github.com/alexisforestier/Atelier-Python-HP/tree/main/Corps_Noir_demo_fit)
 * Ouverture et intégration azimuthale d'une plaque image de diffraction des rayons X au format HDF5 (.h5) [Visualiser](https://github.com/alexisforestier/Atelier-Python-HP/blob/main/Plaque_image_XRD_demo/Plaque_image_h5.ipynb) [Télécharger](https://github.com/alexisforestier/Atelier-Python-HP/tree/main/Plaque_image_XRD_demo)
