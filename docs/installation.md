@@ -174,8 +174,8 @@ Right click on the link, Properties
 Anaconda or Miniconda installation folder 
 C:\Users\username\anaconda3\Scripts\activate.bat
 
-2) Env folder (from command "conda env list: in conda prompt)
+Env folder (from command "conda env list: in conda prompt)
 my_env                C:\Users\username\anaconda3\envs\my_env
 
-3) app_name installed in Env (like i.e. spyder)
+app_name installed in Env (like i.e. spyder)
 spyder
