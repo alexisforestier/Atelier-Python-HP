@@ -159,6 +159,7 @@ Right click on the link, Properties
 %windir%\System32\cmd.exe "/K" C:\Users\username\anaconda3\Scripts\activate.bat C:\Users\username\anaconda3\envs\my_env & app_name
 ```
 This command opens a terminal, activates the virtual environment `my_env` and calls `app_name`
+
 **Start in:**
 ```
 %HOMEPATH
