@@ -129,7 +129,7 @@ To create a shortcut to execute `filename.py` within its associated virtual envi
 
 Right click on the created link, go to 'Properties'.
 
-![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
+![Shortcut_figure1](tuto_screenshots/shortcuts1.png)
 
 Change the **Target** to: 
 ```
@@ -151,7 +151,7 @@ D:\path_to_script\filename.py
 
 Right click on the link, Properties
 
-![Shortcut_figure](https://github.com/CelluleProjet/ReadMeTest/assets/83216683/c173225f-ef17-41a2-8a44-24e50abc67e3)
+![Shortcut_figure2](tuto_screenshots/shortcuts2.png)
 
 
 **Target** : 
