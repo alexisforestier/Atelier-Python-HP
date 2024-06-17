@@ -39,7 +39,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * Documentation officielle de la distribution Conda, utilisée par Anaconda/Miniconda : [sur docs.conda.io](https://docs.conda.io/en/latest/#)
 * Documentation officielle de l'éditeur/IDE Spyder : [sur docs.spyder-ide.org](https://docs.spyder-ide.org/5/index.html)
 
-### Quelques programmes orientés haute-pression basés sur Python
+### Quelques programmes et bibliothèques orientés haute-pression basés sur Python
 
 * [__Dioptas__](https://www.clemensprescher.com/programs/dioptas), programme graphique très complet (écrit en python + Qt) pour l'analyse des données de diffraction des rayons X sous haute pression
 * [__Amorpheus__](https://github.com/CelluleProjet/Amorpheus), un programme python pour l'analyse des données de diffraction des rayons X sur les liquides et solides amorphes, voir la publication associée : [Boccato et al. High Pressure Research 2022, vol. 42, No. 1, 69–93](https://www.tandfonline.com/doi/full/10.1080/08957959.2022.2032032)
@@ -47,6 +47,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * [__RubyCond__](https://github.com/CelluleProjet/Rubycond), un outil graphique pour la mesure de pression avec la luminescence du rubis, avec pilotage en direct du spectromètre OceanOptics (écrit en python + tkinter)
 * [__Smile__](https://github.com/CelluleProjet/Smile), un outil pour la visualisation via caméra USB de microscope
 * [__h5temperature__](https://github.com/alexisforestier/h5temperature), un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5
+* [__pymatgen__](https://pymatgen.org/) est une bibliothèque python qui fournit de nombreuses possibilités pour l'analyse des matériaux (cristallographie, propriétés électroniques, diagrammes de phase...). 
 
 ### Tracé de graphiques
 
@@ -75,7 +76,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Générer des executables
 * Le package PyInstaller permet de créer des executables à partir de codes python (utilisé notamment par Dioptas) : [documentation](https://pyinstaller.org/en/stable/) 
-
+* La bibliothèque `nuitka` permet de compiler du code source python vers du code source C avec un certain nombre d'optimisations, et de générer un executable : [documentation](https://nuitka.net/user-documentation/)
 ### Contacts
 
 * **Alexis FORESTIER**,  alexis.forestier@cea.fr
