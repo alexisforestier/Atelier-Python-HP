@@ -76,7 +76,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 
 ### Générer des executables
 * Le package PyInstaller permet de créer des executables à partir de codes python (utilisé notamment par Dioptas) : [documentation](https://pyinstaller.org/en/stable/) 
-* La bibliothèque `nuitka` permet de compiler du code source python vers du code source C avec un certain nombre d'optimisations, et de générer un executable : [documentation](https://nuitka.net/user-documentation/)
+* La bibliothèque nuitka permet de compiler du code source python vers du code source C avec un certain nombre d'optimisations, et de générer un executable : [documentation](https://nuitka.net/user-documentation/)
 ### Contacts
 
 * **Alexis FORESTIER**,  alexis.forestier@cea.fr
