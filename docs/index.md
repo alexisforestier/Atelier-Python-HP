@@ -46,7 +46,7 @@ Cet atelier propose une initiation à l'analyse de données en utilisant le lang
 * [__myPGM__](https://github.com/AHilberer/myPGM), un outil avec interface graphique écrit en python avec Qt pour le post-traitement (fit...) des mesures spectroscopiques de jauges de pression (rubis, samarium, Raman du nitrure de bore cubique, edge Raman du diamant, vibron H2)
 * [__RubyCond__](https://github.com/CelluleProjet/Rubycond), un outil graphique pour la mesure de pression avec la luminescence du rubis, avec pilotage en direct du spectromètre OceanOptics (écrit en python + tkinter)
 * [__Smile__](https://github.com/CelluleProjet/Smile), un outil pour la visualisation via caméra USB de microscope
-* [__h5temperature__](https://github.com/alexisforestier/h5temperature), un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5
+* [__h5temperature__](https://github.com/alexisforestier/H5temperature), un outil graphique (écrit en python + Qt) pour l'analyse des mesures de température par pyrométrie optique de l'ESRF au format h5
 * [__pymatgen__](https://pymatgen.org/) est une bibliothèque python qui fournit de nombreuses possibilités pour l'analyse des matériaux (cristallographie, propriétés électroniques, diagrammes de phase...). 
 
 ### Tracé de graphiques
